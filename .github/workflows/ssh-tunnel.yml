@@ -8,7 +8,7 @@ on:
 
 jobs:
   tunnel:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Use a stable and supported version
     steps:
       - name: Set up ngrok
         run: |
